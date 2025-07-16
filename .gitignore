@@ -1,0 +1,22 @@
+# Node / npm stuff (if used later for automation)
+node_modules/
+package-lock.json
+dist/
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Replit or VS Code project files
+.replit
+*.code-workspace
+.vscode/
+
+# Logs
+*.log
+
+# Zip files or local backups
+*.zip
+*.bak
+*.tmp
