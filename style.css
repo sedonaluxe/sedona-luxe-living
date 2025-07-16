@@ -28,6 +28,7 @@ img {
   color: white;
   text-align: center;
   padding: 140px 20px;
+  margin-top: 80px;
 }
 .hero::before {
   content: "";
@@ -64,15 +65,15 @@ img {
 
 /* Navigation Bar */
 nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(27, 42, 73, 0.95);
-  color: white;
-  padding: 14px 0;
   position: sticky;
   top: 0;
-  z-index: 10;
+  background-color: #1b2a49;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  z-index: 1000;
+  height: 80px;
 }
 nav a {
   color: white;
