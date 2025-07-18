@@ -220,4 +220,37 @@ footer {
     flex-direction: column;
     gap: 16px;
   }
+
+/* === Hover Effects === */
+a.cta-button:hover {
+  background-color: #b7945a;
+  transition: background-color 0.3s ease;
+}
+.nav-links a:hover,
+footer a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+/* Social icon hover effect */
+.nav-social div:hover,
+.footer-right div:hover {
+  background-color: #e0d8cc;
+  transition: background-color 0.3s ease;
+}
+
+/* === Scroll Reveal Animations === */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.scroll-reveal {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
 }
